@@ -1,4 +1,3 @@
-# Speech_Synthesis
 # 1. Project Overview
 This repository contains a state-of-the-art Text-to-Speech (TTS) system that synthesizes natural-sounding speech from text using Tacotron2 and HiFi-GAN models. The project leverages deep learning techniques to produce high-quality audio output.
 
@@ -72,4 +71,3 @@ python initialisetraining.py
 ```
 python hifiganaudiooutput.py
 ```
-
