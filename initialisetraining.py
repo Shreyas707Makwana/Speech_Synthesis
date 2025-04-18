@@ -2,7 +2,6 @@
 
 if generate_mels:
     create_mels()
-
 print("Checking for missing files")
 !sed -i -- 's,.wav|,.npy|,g' {hparams.training_files}; sed -i -- 's,.wav|,.npy|,g' {hparams.validation_files}
 
