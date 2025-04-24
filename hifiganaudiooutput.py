@@ -17,8 +17,6 @@ if not exists(project_name):
 import sys
 sys.path.append('hifi-gan')
 sys.path.append(project_name)
-
-
 import logging
 
 logging.getLogger('matplotlib').setLevel(logging.WARNING)
