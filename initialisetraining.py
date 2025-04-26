@@ -1,5 +1,3 @@
-
-
 if generate_mels:
     create_mels()
 print("Checking for missing files")
