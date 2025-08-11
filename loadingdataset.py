@@ -7,6 +7,7 @@ import os
 import wave
 import shutil
 import datetime
+
 if os.listdir('/content/TTS-TT2/wavs/'):
   !rm /content/TTS-TT2/wavs/*
 
@@ -74,4 +75,5 @@ print(f"\n{wav_count} processed audios. total duration: {str(datetime.timedelta(
 
 
 print("\n\033[32m\033[1mAll set, please proceed.")
+
 
