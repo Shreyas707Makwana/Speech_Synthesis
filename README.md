@@ -1,6 +1,3 @@
-## Run the G Colab code here!
-https://colab.research.google.com/drive/1w6b1EfcpAT5zH7-ODwXFxI6n0FEsABHq#scrollTo=tkLjwe19StzY
-
 # 1. Project Overview
 This repository contains a state-of-the-art Text-to-Speech (TTS) system that synthesizes natural-sounding speech from text using Tacotron2 and HiFi-GAN models. The project leverages deep learning techniques to produce high-quality audio output.
 
