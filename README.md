@@ -1,3 +1,16 @@
+# Speech Synthesis (Tacotron2 + HiFi-GAN)
+
+[![Live Demo on Hugging Face Spaces](https://img.shields.io/badge/Live%20Demo-HuggingFace-orange?style=flat)](https://huggingface.co/spaces/Shreyas707Makwana/Speech_Synthesis)
+
+> A high-quality Text-to-Speech (TTS) system using Tacotron2 for spectrogram generation and HiFi-GAN for neural vocoding. Type text → get natural-sounding speech. Built for experimentation, reproduction and demoing via a Gradio web UI.
+
+---
+
+## 🔥 Live demo
+Try it now: **https://huggingface.co/spaces/Shreyas707Makwana/Speech_Synthesis**
+
+Anyone can type text in the web UI and instantly get audio output.
+
 # 1. Project Overview
 This repository contains a state-of-the-art Text-to-Speech (TTS) system that synthesizes natural-sounding speech from text using Tacotron2 and HiFi-GAN models. The project leverages deep learning techniques to produce high-quality audio output.
 
