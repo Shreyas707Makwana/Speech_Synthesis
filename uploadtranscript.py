@@ -1,7 +1,5 @@
-
 from google.colab import files
 import os
-
 %cd /content/TTS-TT2/filelists/
 !rm /content/TTS-TT2/filelists/list.txt
 
@@ -29,3 +27,4 @@ with open('list.txt', 'w') as f:
 
 %cd /content/TTS-TT2/
 print("\n\033[32m\033[1mAll set, please proceed.")
+
