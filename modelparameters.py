@@ -3,8 +3,6 @@ Training_file = "filelists/list.txt"
 hparams.training_files = Training_file
 hparams.validation_files = Training_file
 
-
-
 hparams.p_attention_dropout=0.1
 hparams.p_decoder_dropout=0.1
 hparams.decay_start = 15000         
@@ -33,3 +31,4 @@ log_directory = '/content/TTS-TT2/logs'
 log_directory2 = '/content/drive/My Drive/colab/logs' 
 checkpoint_path = output_directory+(r'/')+model_filename
 hparams.text_cleaners=["english_cleaners"] + (["cmudict_cleaners"] if use_cmudict is True else [])
+
