@@ -3,6 +3,7 @@ if generate_mels:
 print("Checking for missing files")
 !sed -i -- 's,.wav|,.npy|,g' {hparams.training_files}; sed -i -- 's,.wav|,.npy|,g' {hparams.validation_files}
 
+
 check_dataset(hparams)
 %cd /content/TTS-TT2/
 import text
@@ -17,3 +18,4 @@ print('cuDNN Benchmark:', hparams.cudnn_benchmark)
 train(output_directory, log_directory, checkpoint_path,
       warm_start, n_gpus, rank, group_name, hparams, log_directory2,
       save_interval, backup_interval)
+
